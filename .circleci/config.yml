@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: go get -v github.com/StackExchange/dnscontrol
       - checkout
-      - run: dnscontrol preview
+      - deploy: dnscontrol push
