@@ -1,12 +1,1 @@
-`dnscontrol push`
-
-## Creds
-Ensure `creds.json` is ready, eg:
-```
-{
- "r53":{
-      "KeyId": "YOUR_KEY",
-      "SecretKey": "YOUR_SECRET"
- }
-}
-```
+[![CircleCI](https://circleci.com/gh/mattcanty/dns.svg?style=svg)](https://circleci.com/gh/mattcanty/dns)
