@@ -6,3 +6,4 @@ jobs:
     steps:
       - checkout
       - run: go get -v github.com/StackExchange/dnscontrol
+      - run: dnscontrol version
