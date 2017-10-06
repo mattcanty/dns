@@ -5,5 +5,6 @@ jobs:
       - image: circleci/golang:1.8
     steps:
       - checkout
-      - run: go get -v github.com/StackExchange/dnscontrol
-      - run: dnscontrol version
+      - run: |
+          go get -v github.com/StackExchange/dnscontrol 
+          dnscontrol preview
