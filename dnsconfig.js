@@ -9,7 +9,8 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("debf6om2flnqorv7k5ncutk7yzlutu7t._domainkey","debf6om2flnqorv7k5ncutk7yzlutu7t.dkim.amazonses.com."),
     CNAME("odcgmdy25sn67hci6ko6xmn5hccsgxvb._domainkey","odcgmdy25sn67hci6ko6xmn5hccsgxvb.dkim.amazonses.com."),
     TXT("_amazonses","i0uXmZmm8Ce/k2jwpEv+Y9ZXmxHJkNWz8MBUGsjcCDU="),
-    TXT("@","google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0")
+    TXT("@","google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0"),
+    CNAME("www","www.mattcanty.com.s.strikinglydns.com.")
 );
 
 D("matthewcanty.co.uk", NON_REG, DnsProvider(R53),
