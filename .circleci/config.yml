@@ -5,5 +5,6 @@ jobs:
       - image: stackexchange/dnscontrol
     steps:
       - checkout
+      - run: echo $AWS_ACCESS_KEY_ID
       - deploy:
           command: dnscontrol push
