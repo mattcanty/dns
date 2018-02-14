@@ -2,10 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.8
+      - image: stackexchange/dnscontrol
     steps:
-      - run: go get -v github.com/StackExchange/dnscontrol
       - checkout
-      - deploy: 
-          name: Push DNS
-          command: dnscontrol push
+      - deploy: dnscontrol push
