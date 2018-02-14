@@ -10,7 +10,8 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("odcgmdy25sn67hci6ko6xmn5hccsgxvb._domainkey","odcgmdy25sn67hci6ko6xmn5hccsgxvb.dkim.amazonses.com."),
     TXT("_amazonses","i0uXmZmm8Ce/k2jwpEv+Y9ZXmxHJkNWz8MBUGsjcCDU="),
     TXT("@","google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0"),
-    CNAME("www","www.mattcanty.com.s.strikinglydns.com.")
+    CNAME("www","www.mattcanty.com.s.strikinglydns.com."),
+    CNAME("gatsby","frosty-payne-0c549e.netlify.com.")
 );
 
 D("matthewcanty.co.uk", NON_REG, DnsProvider(R53),
