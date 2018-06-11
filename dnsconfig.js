@@ -11,7 +11,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     TXT("_amazonses", "i0uXmZmm8Ce/k2jwpEv+Y9ZXmxHJkNWz8MBUGsjcCDU="),
     TXT("@", "google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0"),
     CNAME("www", "www.mattcanty.com.s.strikinglydns.com."),
-    CNAME("gatsby", "gracious-varahamihira-35ff13.netlify.com."),
+    CNAME("blog", "gracious-varahamihira-35ff13.netlify.com."),
     R53_ALIAS("rainclock", "A", "d2le1566l2fx93.cloudfront.net", R53_ZONE('Z2FDTNDATAQYW2'))
 );
 
