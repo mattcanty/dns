@@ -19,7 +19,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     MX("@", 10, "mail.protonmail.ch."),
     MX("@", 20, "mailsec.protonmail.ch."),
     TXT("@", "v=spf1 include:_spf.protonmail.ch mx ~all"),
-    TXT("protonmail._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWAFHh3LNjU8h1XmMWMRLm8hpftIBaMDjOKLavXK/l7PovB2WcUUGQIptw8DcebMtHnnPTQdOV//ZLesM2jgAXLfYwT2SRY2iDUOCWMCXUdgVMhWvCRiCkaroBIFCKH3bxAbTfCFRkCXGNIV7Kd9D7nfX+MAIy1oAS+EMru/NqNwIDAQAB"),
+    TXT("protonmail._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/gip+cvhKYo9qJdmH9bcCVJ5HKeGVJ1ORQODtC6zxJOVECjZMa8Vzr7E7sKUNLyEARCkgkiOkzccGiIhLP2ur90FBzueeWA+uJ3WmIB4F90/MV+KDMSNgnPj2voGBbmEyeYVpIomPDQ7nJVqVBg/df/Q/VWiJjmJzXJOdoNrlmQIDAQAB"),
     TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@mattcanty.com")
 );
 
