@@ -38,5 +38,7 @@ D("cantonite.com", NON_REG, DnsProvider(R53),
     MX("@", 5, "ALT2.ASPMX.L.GOOGLE.COM."),
     MX("@", 10, "ALT3.ASPMX.L.GOOGLE.COM."),
     MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM."),
-    MX("@", 15, "cfxvr25twetlbxcl3mj2xlmollggaahxwtf3d5u4kzedtil2v23q.mx-verification.google.com.")
+    MX("@", 15, "cfxvr25twetlbxcl3mj2xlmollggaahxwtf3d5u4kzedtil2v23q.mx-verification.google.com."),    
+    TXT("20200208171147pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvmAV2ogFclJKwuXYVXjIVC/44qkqvMbVlpvzSnKXKa4KSNNkrmcYF4Sc01JjNsDXyymqstismxiMkFQKkxqYQSsGus+LE09lXf0aRD74BxftKFpyu/P9APmMXc95J9YGTC7cTFzw3fakecX2Q1FpFMOlsKYLA2lya4MSBCDBfiQIDAQAB"),
+    CNAME("freeagent-mailer", "pm.mtasv.net")
 );
