@@ -14,13 +14,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("www", "www.mattcanty.com.s.strikinglydns.com."),
     CNAME("blog", "gracious-varahamihira-35ff13.netlify.com."),
     R53_ALIAS("rainclock", "A", "d2le1566l2fx93.cloudfront.net", R53_ZONE('Z2FDTNDATAQYW2')),
-    CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws."),
-    TXT("@", "protonmail-verification=149a3b366830a1a9cbe4f177bcd863b56780edc1"),
-    MX("@", 10, "mail.protonmail.ch."),
-    MX("@", 20, "mailsec.protonmail.ch."),
-    TXT("@", "v=spf1 include:_spf.protonmail.ch mx ~all"),
-    TXT("protonmail._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/gip+cvhKYo9qJdmH9bcCVJ5HKeGVJ1ORQODtC6zxJOVECjZMa8Vzr7E7sKUNLyEARCkgkiOkzccGiIhLP2ur90FBzueeWA+uJ3WmIB4F90/MV+KDMSNgnPj2voGBbmEyeYVpIomPDQ7nJVqVBg/df/Q/VWiJjmJzXJOdoNrlmQIDAQAB"),
-    TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:dmarc@mattcanty.com")
+    CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws.")
 );
 
 D("matthewcanty.co.uk", NON_REG, DnsProvider(R53),
