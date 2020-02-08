@@ -31,3 +31,10 @@ D("katybrody.co.uk", NON_REG, DnsProvider(R53),
     A("www","88.208.252.9"),
     A("@","88.208.252.9")
 );
+
+D("cantonite.com", NON_REG, DnsProvider(R53),
+    MX("@", 5, "ALT1.ASPMX.L.GOOGLE.COM."),
+    MX("@", 5, "ALT2.ASPMX.L.GOOGLE.COM."),
+    MX("@", 10, "ALT3.ASPMX.L.GOOGLE.COM."),
+    MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM."),
+);
