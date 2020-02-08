@@ -36,5 +36,6 @@ D("cantonite.com", NON_REG, DnsProvider(R53),
     MX("@", 5, "ALT1.ASPMX.L.GOOGLE.COM."),
     MX("@", 5, "ALT2.ASPMX.L.GOOGLE.COM."),
     MX("@", 10, "ALT3.ASPMX.L.GOOGLE.COM."),
-    MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM.")
+    MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM."),
+    MX("@", 15, "cfxvr25twetlbxcl3mj2xlmollggaahxwtf3d5u4kzedtil2v23q.mx-verification.google.com.")
 );
