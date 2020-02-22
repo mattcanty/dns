@@ -2,6 +2,7 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
+    R53_ALIAS("@", "A", "angry-yalow-e2f303.netlify.com.", R53_ZONE('Z2FDTNDATAQYW2')),
     A("lifedex", "151.101.1.195"),
     A("lifedex", "151.101.65.195"),
     CNAME("chords", "mattcanty.github.io."),
@@ -11,7 +12,6 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     TXT("_amazonses", "i0uXmZmm8Ce/k2jwpEv+Y9ZXmxHJkNWz8MBUGsjcCDU="),
     TXT("@", "google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0"),
     TXT("@", "keybase-site-verification=A7ns5-QzuyAi-fb-B5h2gmgnU9IvT9KNMZH24hksx54"),
-    CNAME("www", "www.mattcanty.com.s.strikinglydns.com."),
     CNAME("blog", "gracious-varahamihira-35ff13.netlify.com."),
     R53_ALIAS("rainclock", "A", "d2le1566l2fx93.cloudfront.net", R53_ZONE('Z2FDTNDATAQYW2')),
     CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws.")
