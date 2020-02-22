@@ -3,6 +3,7 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
     R53_ALIAS("@", "A", "angry-yalow-e2f303.netlify.com.", R53_ZONE('Z2FDTNDATAQYW2')),
+    CNAME("www", "angry-yalow-e2f303.netlify.com."),
     A("lifedex", "151.101.1.195"),
     A("lifedex", "151.101.65.195"),
     CNAME("chords", "mattcanty.github.io."),
