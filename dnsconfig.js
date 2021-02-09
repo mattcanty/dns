@@ -19,10 +19,6 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("bass", "angry-yalow-e2f303.netlify.app.")
 );
 
-D("matthewcanty.co.uk", NON_REG, DnsProvider(R53),
-    CNAME("www","dns.strikingly.com.")
-);
-
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
     A("www","88.208.252.9"),
     A("@","88.208.252.9")
