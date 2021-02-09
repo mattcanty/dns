@@ -2,7 +2,11 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
-    A("@", "104.198.14.52"),
+104.198.14.52"),
+    A("@", "185.199.108.153"),
+    A("@", "185.199.109.153"),
+    A("@", "185.199.110.153"),
+    A("@", "185.199.111.153"),
     CNAME("www", "mattcanty.github.io."),
     CNAME("c37trtl6ubra6yp4enjsp4tegjqn3lt7._domainkey", "c37trtl6ubra6yp4enjsp4tegjqn3lt7.dkim.amazonses.com."),
     CNAME("debf6om2flnqorv7k5ncutk7yzlutu7t._domainkey", "debf6om2flnqorv7k5ncutk7yzlutu7t.dkim.amazonses.com."),
