@@ -4,8 +4,6 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 D("mattcanty.com", NON_REG, DnsProvider(R53),
     A("@", "104.198.14.52"),
     CNAME("www", "angry-yalow-e2f303.netlify.com."),
-    A("lifedex", "151.101.1.195"),
-    A("lifedex", "151.101.65.195"),
     CNAME("chords", "mattcanty.github.io."),
     CNAME("c37trtl6ubra6yp4enjsp4tegjqn3lt7._domainkey", "c37trtl6ubra6yp4enjsp4tegjqn3lt7.dkim.amazonses.com."),
     CNAME("debf6om2flnqorv7k5ncutk7yzlutu7t._domainkey", "debf6om2flnqorv7k5ncutk7yzlutu7t.dkim.amazonses.com."),
