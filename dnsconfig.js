@@ -2,7 +2,6 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
-104.198.14.52"),
     A("@", "185.199.108.153"),
     A("@", "185.199.109.153"),
     A("@", "185.199.110.153"),
