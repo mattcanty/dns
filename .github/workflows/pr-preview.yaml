@@ -1,9 +1,7 @@
-name: Run DNS Control
+name: Preview DNS Changes
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
 jobs:
   deploy:
@@ -25,6 +23,7 @@ jobs:
         with:
           args: check
       - name: DNSControl preview
+        id: dnscontrol_preview
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
