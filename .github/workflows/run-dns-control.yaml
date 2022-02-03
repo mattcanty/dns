@@ -28,6 +28,7 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
+          config_file: dnscontrol.js
 
 
       # - name: configure aws credentials
