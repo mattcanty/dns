@@ -29,16 +29,4 @@ jobs:
         with:
           args: preview
           config_file: dnscontrol.js
-
-
-      # - name: configure aws credentials
-      #   uses: aws-actions/configure-aws-credentials@v1
-      #   with:
-      #     role-to-assume: arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
-      #     role-session-name: RunDNSControl
-      #     aws-region: eu-west-2
-      # - name: Checkout
-      #   uses: actions/checkout@v2
-      # - name: Preview
-      #   runs: dnscontrol preview
-# arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
+          creds_file: creds.json
