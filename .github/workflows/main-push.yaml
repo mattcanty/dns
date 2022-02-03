@@ -24,7 +24,7 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: check
-      - name: DNSControl preview
+      - name: DNSControl push
         uses: koenrh/dnscontrol-action@v3
         with:
-          args: preview
+          args: push
