@@ -12,12 +12,12 @@ jobs:
       contents: read
     steps:
       - uses: mshick/add-pr-comment@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message: |
-            **Hello**
-            🌏
-            !
-          repo-token: ${{ secrets.GITHUB_PAT }}
+            **Hello MASTER**
+          allow-repeats: true
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
