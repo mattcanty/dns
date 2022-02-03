@@ -1,4 +1,4 @@
-name: Run DNS Control
+name: Push DNS Control
 
 on:
   push:

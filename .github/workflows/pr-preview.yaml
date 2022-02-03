@@ -1,4 +1,4 @@
-name: Run DNS Control
+name: Preview DNS Changes
 
 on:
   pull_request:
