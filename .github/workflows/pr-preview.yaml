@@ -1,9 +1,7 @@
 name: Run DNS Control
 
 on:
-  push:
-    ignore_branches:
-      - main
+  pull_request:
 
 jobs:
   deploy:
@@ -38,4 +36,3 @@ jobs:
             ```
             ${{ steps.dnscontrol_preview.outputs.preview_comment }}
             ```
-          check_for_duplicate_msg: true
