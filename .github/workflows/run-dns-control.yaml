@@ -15,15 +15,19 @@ jobs:
     steps:
       - name: Git clone the repository
         uses: actions/checkout@v2
+      - name: DNSControl check
+        uses: koenrh/dnscontrol-action@v3
+        with:
+          args: check
+
+          # Optionally, if your DNSConfig files are in a non-default location,
+          # you could specify the paths to the config and credentials file.
+          config_file: dnsconfig.js
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
           aws-region: eu-west-2
-      - name: DNSControl check
-        uses: koenrh/dnscontrol-action@v3
-        with:
-          args: check
 
 
 
