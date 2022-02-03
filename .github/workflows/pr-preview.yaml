@@ -27,12 +27,13 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
-      - name: Preview pull request comment
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/github-script@v5
         with:
-          msg: |
-            ```
-            ${{ steps.dnscontrol_preview.outputs.preview_comment }}
-            ```
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ steps.dnscontrol_preview.outputs.preview_comment }}'
+            })
