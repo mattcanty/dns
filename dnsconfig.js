@@ -35,3 +35,8 @@ D("cantonite.com", NON_REG, DnsProvider(R53),
     TXT("20200208171147pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvmAV2ogFclJKwuXYVXjIVC/44qkqvMbVlpvzSnKXKa4KSNNkrmcYF4Sc01JjNsDXyymqstismxiMkFQKkxqYQSsGus+LE09lXf0aRD74BxftKFpyu/P9APmMXc95J9YGTC7cTFzw3fakecX2Q1FpFMOlsKYLA2lya4MSBCDBfiQIDAQAB"),
     CNAME("freeagent-mailer", "pm.mtasv.net.")
 );
+
+D("raulgame.com", NON_REG, DnsProvider(R53),
+  A("@", "75.2.60.5")
+  CNAME("www", "dreamy-keller-bb1d7e.netlify.app.")
+);
