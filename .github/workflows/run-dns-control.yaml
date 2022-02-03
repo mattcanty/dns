@@ -28,5 +28,3 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
-          config_file: dnscontrol.js
-          creds_file: creds.json
