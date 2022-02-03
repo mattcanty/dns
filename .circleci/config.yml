@@ -5,5 +5,5 @@ jobs:
       - image: stackexchange/dnscontrol
     steps:
       - checkout
-      - deploy:
-          command: dnscontrol push
+      # - deploy:
+      #     command: dnscontrol push
