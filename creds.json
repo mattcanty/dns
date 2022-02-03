@@ -1,0 +1,7 @@
+{
+    "r53": {
+        "KeyId": "$AWS_ACCESS_KEY_ID",
+        "SecretKey": "$AWS_SECRET_ACCESS_KEY",
+        "Token": "$AWS_SESSION_TOKEN"
+    }
+}
