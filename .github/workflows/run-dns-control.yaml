@@ -1,4 +1,4 @@
-name: Deploy OIDC CloudFormation
+name: Run DNS Control
 
 on:
   push:

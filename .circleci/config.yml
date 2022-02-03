@@ -1,9 +1,0 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: stackexchange/dnscontrol
-    steps:
-      - checkout
-      # - deploy:
-      #     command: dnscontrol push
