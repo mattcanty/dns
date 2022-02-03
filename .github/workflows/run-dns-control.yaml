@@ -8,7 +8,9 @@ on:
 jobs:
   deploy:
     name: Run DNS Control
-    runs-on: stackexchange/dnscontrol
+    runs-on: ubuntu-latest
+    container:
+      image: stackexchange/dnscontrol
     steps:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
