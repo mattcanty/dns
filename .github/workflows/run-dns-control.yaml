@@ -12,11 +12,10 @@ jobs:
     steps:
       - name: Git clone the repository
         uses: actions/checkout@v2
-      - name: configure aws credentials
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
-          role-session-name: samplerolesession
           aws-region: eu-west-2
 
 
