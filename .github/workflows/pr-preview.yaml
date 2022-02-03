@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: mshick/add-pr-comment@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
         with:
           message: |
             **Hello MASTER**
