@@ -10,6 +10,12 @@ jobs:
     name: Run DNS Control
     runs-on: stackexchange/dnscontrol
     steps:
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
+          role-session-name: RunDNSControl
+          aws-region: eu-west-2
       - name: Checkout
         uses: actions/checkout@v2
 # arn:aws:iam::171269869827:role/GitHubMattCantyDNSActionsWrite
