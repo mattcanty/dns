@@ -3,6 +3,18 @@ name: Preview DNS Changes
 on:
   pull_request:
 
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
 jobs:
   deploy:
     name: Run DNS Control
@@ -10,17 +22,6 @@ jobs:
     permissions:
       id-token: write
       contents: read
-      
-      actions: write
-      checks: write
-      contents: write
-      deployments: write
-      issues: write
-      packages: write
-      pull-requests: write
-      repository-projects: write
-      security-events: write
-      statuses: write
     steps:
       - uses: mshick/add-pr-comment@v1
         with:
