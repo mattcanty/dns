@@ -10,7 +10,15 @@ jobs:
     permissions:
       id-token: write
       contents: read
+      issues: write
     steps:
+      - uses: mshick/add-pr-comment@v1
+        with:
+          message: |
+            **Hello**
+            🌏
+            !
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -27,3 +35,10 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
+      - uses: mshick/add-pr-comment@v1
+        with:
+          message: |
+            ```
+            ${{ steps.dnscontrol_preview.outputs.preview_comment }}
+            ```
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
