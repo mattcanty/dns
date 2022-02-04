@@ -36,3 +36,4 @@ jobs:
             ${{ steps.dnscontrol_preview.outputs.preview_comment }}
             ```
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-repeats: true
