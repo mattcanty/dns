@@ -38,5 +38,5 @@ D("cantonite.com", NON_REG, DnsProvider(R53),
 
 D("raulgame.com", NON_REG, DnsProvider(R53),
   A("@", "75.2.60.5"),
-  CNAME("www", "dreamy-keller-bb1d7e.netlify.app.")
+  CNAME("www", "dreamy-keller-bb1d7e.netlify.com.")
 );
