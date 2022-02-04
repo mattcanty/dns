@@ -3,11 +3,6 @@ name: Preview DNS Changes
 on:
   pull_request:
 
-permissions:
-  contents: read
-  id-token: write
-  issues: write
-
 jobs:
   deploy:
     name: Run DNS Control in Preview mode
