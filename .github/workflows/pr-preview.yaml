@@ -16,6 +16,7 @@ jobs:
       contents: read
       id-token: write
       issues: write
+      pull-request: write
     steps:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
