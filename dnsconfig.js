@@ -44,3 +44,7 @@ D("raulgame.com", NON_REG, DnsProvider(R53),
 D("electricbassguitarbook.com", NON_REG, DnsProvider(R53),
   A("@", "88.208.252.174")
 );
+
+D("electricbassguitarbook.co.uk", NON_REG, DnsProvider(R53),
+  A("@", "88.208.252.174")
+);
