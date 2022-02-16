@@ -40,3 +40,7 @@ D("raulgame.com", NON_REG, DnsProvider(R53),
   A("@", "75.2.60.5"),
   CNAME("www", "dreamy-keller-bb1d7e.netlify.app.")
 );
+
+D("electricbassguitarbook.com", NON_REG, DnsProvider(R53),
+  A("@", "88.208.252.174")
+);
