@@ -21,7 +21,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
 );
 
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
-    CNAME("www", "katybrody.format.com.")
+    CNAME("www", "katybrody.formatx.com.")
 );
 
 D("cantonite.com", NON_REG, DnsProvider(R53),
