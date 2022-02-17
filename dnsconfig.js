@@ -21,7 +21,8 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
 );
 
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
-    CNAME("www", "katybrody.formatx.com.")
+    R53_ALIAS('@', 'A', 'katybrody.co.uk.s3-website.eu-west-2.amazonaws.com.', R53_ZONE('Z3GKZC51ZF0DB4')),
+    CNAME("www", "katybrody.format.com.")
 );
 
 D("cantonite.com", NON_REG, DnsProvider(R53),
