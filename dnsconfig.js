@@ -17,7 +17,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws."),
     CNAME("bass", "angry-yalow-e2f303.netlify.app."),
     R53_ALIAS("photo", "A", "d2twlpstq44dr.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2')),
-    CNAME("rainclock", "stirring-bonbon-38127e.netlify.app."),
+    CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
