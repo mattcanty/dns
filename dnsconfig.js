@@ -14,10 +14,10 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     TXT("@", "google-site-verification=qbRypdAcGwptTI43UaQrfDvAEN7-DkALAcnME-5Kwn0"),
     TXT("@", "keybase-site-verification=A7ns5-QzuyAi-fb-B5h2gmgnU9IvT9KNMZH24hksx54"),
     CNAME("blog", "gracious-varahamihira-35ff13.netlify.com."),
-    R53_ALIAS("rainclock", "A", "d2le1566l2fx93.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2')),
     CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws."),
     CNAME("bass", "angry-yalow-e2f303.netlify.app."),
-    R53_ALIAS("photo", "A", "d2twlpstq44dr.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2'))
+    R53_ALIAS("photo", "A", "d2twlpstq44dr.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2')),
+    CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
