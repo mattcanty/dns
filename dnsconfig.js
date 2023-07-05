@@ -21,10 +21,9 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
 );
 
 D("electricbassguitarbook.co.uk", NON_REG, DnsProvider(R53),
-    CNAME("@", "apex-loadbalancer.netlify.com")
+    A("@", "75.2.60.5"),
+    CNAME("www", "graceful-kashata-aea1f7.netlify.app.")
 );
-
-electricbassguitarbook.co.uk ALIAS 
 
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
     R53_ALIAS('@', 'A', 's3-website.eu-west-2.amazonaws.com.', R53_ZONE('Z3GKZC51ZF0DB4')),
