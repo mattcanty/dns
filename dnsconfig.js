@@ -20,6 +20,11 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
+D("electricbassguitarbook.co.uk", NON_REG, DnsProvider(R53),
+    A("@", "75.2.60.5"),
+    CNAME("www", "graceful-kashata-aea1f7.netlify.app.")
+);
+
 D("katybrody.co.uk", NON_REG, DnsProvider(R53),
     R53_ALIAS('@', 'A', 's3-website.eu-west-2.amazonaws.com.', R53_ZONE('Z3GKZC51ZF0DB4')),
     CNAME("www", "katybrody.format.com.")
