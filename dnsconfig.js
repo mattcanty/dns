@@ -20,7 +20,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
-D("electricbassguitarbook.co.uk", NON_REG, DnsProvider(R53),
+D("bassguitarbook.com", NON_REG, DnsProvider(R53),
     A("@", "75.2.60.5"),
     CNAME("www", "graceful-kashata-aea1f7.netlify.app.")
 );
