@@ -20,6 +20,10 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
+D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
+    TXT("@", "google-site-verification=zg0vSqTUbu4DFD2w_wq4KBGk3rt5iGCNH94QAt67oNY")
+);
+
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
     A("@", "75.2.60.5"),
     CNAME("www", "graceful-kashata-aea1f7.netlify.app.")
