@@ -21,7 +21,12 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
 );
 
 D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
-    TXT("@", "google-site-verification=zg0vSqTUbu4DFD2w_wq4KBGk3rt5iGCNH94QAt67oNY")
+    TXT("@", "google-site-verification=zg0vSqTUbu4DFD2w_wq4KBGk3rt5iGCNH94QAt67oNY"),
+    MX("@", 1, "ASPMX.L.GOOGLE.COM."),
+    MX("@", 5, "ALT1.ASPMX.L.GOOGLE.COM."),
+    MX("@", 5, "ALT2.ASPMX.L.GOOGLE.COM."),
+    MX("@", 10, "ALT3.ASPMX.L.GOOGLE.COM."),
+    MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM.")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
