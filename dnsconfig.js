@@ -28,7 +28,9 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
     MX("@", 10, "ALT3.ASPMX.L.GOOGLE.COM."),
     MX("@", 10, "ALT4.ASPMX.L.GOOGLE.COM."),
     TXT("20240814125127pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/UhMiB+4qOMGvw+3CVowftnxkL2Sv377vzjaBtuNxbWFT1fmDN5xwDqzzp/mp4GEWyv+aPVnqRPqRkjbE3W3egmsWJkreoMSoKtvHCwqDDaiGgIFtpQXheTMW6Bxp/siltRYAY+xqy+p3KQKbmcwdUTK7uZXrl/bugwW0u08MTwIDAQAB"),
-    CNAME("freeagent-mailer", "pm.mtasv.net.")
+    CNAME("freeagent-mailer", "pm.mtasv.net."),
+    A("@", "75.2.60.5"),
+    CNAME("www", "sage-blini-bad66c.netlify.app.")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
