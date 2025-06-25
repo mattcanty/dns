@@ -31,7 +31,8 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
     CNAME("freeagent-mailer", "pm.mtasv.net."),
     A("@", "75.2.60.5"),
     CNAME("www", "sage-blini-bad66c.netlify.app."),
-    TXT("@", "google-site-verification=C1JMr8GTUmYpUYzppKhqH5ev854aWT3op5aspA9ovvQ")
+    TXT("@", "google-site-verification=C1JMr8GTUmYpUYzppKhqH5ev854aWT3op5aspA9ovvQ"),
+    TXT("@", "v=spf1 include:_spf.google.com ~all")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
