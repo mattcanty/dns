@@ -33,7 +33,16 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
     CNAME("www", "sage-blini-bad66c.netlify.app."),
     TXT("@", "google-site-verification=C1JMr8GTUmYpUYzppKhqH5ev854aWT3op5aspA9ovvQ"),
     TXT("@", "v=spf1 include:_spf.google.com ~all"),
-    TXT("@", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net")
+    TXT("@", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net"),
+    CNAME("orvz7hkwc3zmp4k7latumjp2qg4y3guc._domainkey", "orvz7hkwc3zmp4k7latumjp2qg4y3guc.dkim.custom-email-domain.stripe.com."),
+    CNAME("lq52ukhxi5r7uumkeayr6six2473kfdj._domainkey", "lq52ukhxi5r7uumkeayr6six2473kfdj.dkim.custom-email-domain.stripe.com."),
+    CNAME("6nregyhktjxx34qv55w72zszbkmsaiex._domainkey", "6nregyhktjxx34qv55w72zszbkmsaiex.dkim.custom-email-domain.stripe.com."),
+    CNAME("puefeaibaewfejqm4i6ajrhcoyrnqbp3._domainkey", "puefeaibaewfejqm4i6ajrhcoyrnqbp3.dkim.custom-email-domain.stripe.com."),
+    CNAME("lveb4wlnjhtjiw3zddfl6svib5mqpgyw._domainkey", "lveb4wlnjhtjiw3zddfl6svib5mqpgyw.dkim.custom-email-domain.stripe.com."),
+    CNAME("rmfzhb3soumbxtasa3zasa2rv4atm7ec._domainkey", "rmfzhb3soumbxtasa3zasa2rv4atm7ec.dkim.custom-email-domain.stripe.com."),
+    CNAME("bounce", "custom-email-domain.stripe.com."),
+    TXT("@", "stripe-verification=83b0b22370906e0054ca65fea880f7a65d70cc6ef7731243167316511b552412"),
+    TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
