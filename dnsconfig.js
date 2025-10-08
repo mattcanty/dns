@@ -41,7 +41,7 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
     CNAME("lveb4wlnjhtjiw3zddfl6svib5mqpgyw._domainkey", "lveb4wlnjhtjiw3zddfl6svib5mqpgyw.dkim.custom-email-domain.stripe.com."),
     CNAME("rmfzhb3soumbxtasa3zasa2rv4atm7ec._domainkey", "rmfzhb3soumbxtasa3zasa2rv4atm7ec.dkim.custom-email-domain.stripe.com."),
     CNAME("bounce", "custom-email-domain.stripe.com."),
-    TXT("@", "stripe-verification=83b0b22370906e0054ca65fea880f7a65d70cc6ef7731243167316511b552412"),
+    TXT("@", "stripe-verification=4997d4f786aa534f5c07ff109736edb2a723e60d4eddce354359a0582e9462f3"),
     TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net")
 );
 
