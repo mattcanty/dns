@@ -1,5 +1,6 @@
 var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
+var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
     A("@", "185.199.108.153"),
@@ -20,7 +21,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
-D("controlaltrepeat.net", NON_REG, DnsProvider(R53),
+D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE),
     TXT("@", "google-site-verification=zg0vSqTUbu4DFD2w_wq4KBGk3rt5iGCNH94QAt67oNY"),
     MX("@", 1, "ASPMX.L.GOOGLE.COM."),
     MX("@", 5, "ALT1.ASPMX.L.GOOGLE.COM."),
