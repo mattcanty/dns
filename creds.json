@@ -3,5 +3,10 @@
         "KeyId": "$AWS_ACCESS_KEY_ID",
         "SecretKey": "$AWS_SECRET_ACCESS_KEY",
         "Token": "$AWS_SESSION_TOKEN"
-    }
+    },
+    "cloudflare": {
+        "TYPE": "CLOUDFLAREAPI",
+        "accountid": "$CLOUDFLARE_ACCOUNT_ID",
+        "apitoken": "$CLOUDFLARE_API_KEY"
+      }
 }
