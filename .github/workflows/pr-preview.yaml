@@ -28,6 +28,8 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: preview
+        env:
+          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
