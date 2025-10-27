@@ -47,7 +47,8 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE)
     CNAME("bounce", "custom-email-domain.stripe.com."),
     TXT("@", "stripe-verification=4997d4f786aa534f5c07ff109736edb2a723e60d4eddce354359a0582e9462f3"),
     TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net"),
-    CNAME("3d", "custom-3d-prints.netlify.app.")
+    CNAME("3d", "custom-3d-prints.netlify.app."),
+    TXT("_gh-control-alt-repeat-o", "d645a70e7c")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
