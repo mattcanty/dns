@@ -28,3 +28,5 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: push
+        env:
+          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
