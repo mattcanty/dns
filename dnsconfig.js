@@ -5,6 +5,7 @@ var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 D("mattcanty.com", NON_REG, DnsProvider(R53),
     IGNORE("satisfactory"),
     IGNORE("satisfactory-panel"),
+    CNAME("_74c9c9acea4e18f3d82d6ed8ba404f2c.satisfactory-panel", "_a81646e4a3bc660e9ce7dda3508dd7e5.jkddzztszm.acm-validations.aws."),
     A("@", "185.199.108.153"),
     A("@", "185.199.109.153"),
     A("@", "185.199.110.153"),
