@@ -22,7 +22,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("bass", "angry-yalow-e2f303.netlify.app."),
     R53_ALIAS("photo", "A", "d2twlpstq44dr.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2')),
     CNAME("rainclock", "stirring-bonbon-38127e.netlify.app."),
-    TXT("20260213120006pm._domainkey.", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
+    TXT("20260213120006pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
     CNAME("pm-bounces", "pm.mtasv.net.")
 );
 
