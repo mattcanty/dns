@@ -21,9 +21,7 @@ D("mattcanty.com", NON_REG, DnsProvider(R53),
     CNAME("_c0e6e8fc4682262e6c452a1b1d43d327", "_2b82288279a845962a0b4c2854d6a418.tljzshvwok.acm-validations.aws."),
     CNAME("bass", "angry-yalow-e2f303.netlify.app."),
     R53_ALIAS("photo", "A", "d2twlpstq44dr.cloudfront.net.", R53_ZONE('Z2FDTNDATAQYW2')),
-    CNAME("rainclock", "stirring-bonbon-38127e.netlify.app."),
-    TXT("20260213120006pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
-    CNAME("pm-bounces", "pm.mtasv.net.")
+    CNAME("rainclock", "stirring-bonbon-38127e.netlify.app.")
 );
 
 D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE),
@@ -53,7 +51,9 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE)
     TXT("@", "stripe-verification=4997d4f786aa534f5c07ff109736edb2a723e60d4eddce354359a0582e9462f3"),
     TXT("_dmarc", "v=DMARC1; p=none; rua=mailto:postmaster@controlaltrepeat.net"),
     CNAME("3d", "custom-3d-prints.netlify.app."),
-    TXT("_gh-control-alt-repeat-o", "d645a70e7c")
+    TXT("_gh-control-alt-repeat-o", "d645a70e7c"),
+    TXT("20260213120006pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
+    CNAME("pm-bounces", "pm.mtasv.net.")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
