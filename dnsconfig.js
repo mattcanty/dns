@@ -53,7 +53,8 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE)
     CNAME("3d", "custom-3d-prints.netlify.app."),
     TXT("_gh-control-alt-repeat-o", "d645a70e7c"),
     TXT("20260213120006pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
-    CNAME("pm-bounces", "pm.mtasv.net.")
+    CNAME("pm-bounces", "pm.mtasv.net."),
+    A("vpn", "217.41.23.138")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
