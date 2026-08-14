@@ -3,7 +3,10 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("cantytech.uk", NON_REG, DnsProvider(R53),
-  TXT("@", "MS=ms90388191")
+  TXT("@", "MS=ms90388191"),
+  MX("@", "cantytech-uk.mail.protection.outlook.com."),
+  CNAME("autodiscover", "autodiscover.outlook.com."),
+  TXT("@", "v=spf1 include:spf.protection.outlook.com -all")
 )
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
