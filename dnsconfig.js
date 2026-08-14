@@ -3,6 +3,7 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("cantytech.uk", NON_REG, DnsProvider(R53),
+  NS("@", "ns-1823.awsdns-35.co.uk.", 172800),
   TXT("@", "MS=ms90388191")
 )
 
