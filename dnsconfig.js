@@ -2,6 +2,10 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
+D("cantytech.uk", NON_REG, DnsProvider(R53),
+  TXT("@", "MS=ms90388191")
+)
+
 D("mattcanty.com", NON_REG, DnsProvider(R53),
     IGNORE("satisfactory"),
     IGNORE("satisfactory-panel"),
