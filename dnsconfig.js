@@ -4,7 +4,7 @@ var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("cantytech.uk", NON_REG, DnsProvider(R53),
   TXT("@", "MS=ms90388191"),
-  MX("@", "cantytech-uk.mail.protection.outlook.com."),
+  MX("@", 0, "cantytech-uk.mail.protection.outlook.com."),
   CNAME("autodiscover", "autodiscover.outlook.com."),
   TXT("@", "v=spf1 include:spf.protection.outlook.com -all")
 )
