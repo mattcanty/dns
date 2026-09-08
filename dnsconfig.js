@@ -7,7 +7,8 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   MX("@", 0, "cantytech-uk.mail.protection.outlook.com."),
   CNAME("autodiscover", "autodiscover.outlook.com."),
   TXT("@", "v=spf1 include:spf.protection.outlook.com -all"),
-  A("vpn", "81.137.192.4")
+  A("vpn", "81.137.192.4"),
+  AAAA("vpn", "fe80::20a:cdff:fe0b:bf")
 )
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
