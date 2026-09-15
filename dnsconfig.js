@@ -10,8 +10,15 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   A("vpn", "81.137.192.4"),
   AAAA("vpn", "fe80::20a:cdff:fe0b:bf"),
   TXT("resend._domainkey.band-org-app", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIKYmrAGTzGocwgLagnW2p27rLg+sAw5U0rfY+y3XLc4sggQFD9GkgAVEPM5Uay4GzomErgQrGo5Mo4/05MjqZBua5LIz5Cu7sTk2oLNTlzo8+9s7sPjan6BiclOLTRFSPNmshWcEiiyENAp4rN0PfqPrQDlN4SdxkEwNYcKFyLQIDAQAB"),
-  CNAME("rsend.band-org-app", "rsend-euw1.forge.rmta.net"),
-  CNAME("send.band-org-app", "send.forge.rmta.net"),
+  CNAME("rsend.band-org-app", "rsend-euw1.forge.rmta.net."),
+  CNAME("send.band-org-app", "send.forge.rmta.net."),
+  TXT("_dmarc", "v=DMARC1; p=none;")
+)
+
+D("band-org-app.cantytech.uk", NON_REG, DnsProvider(R53),
+  TXT("resend._domainkey.band-org-app", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIKYmrAGTzGocwgLagnW2p27rLg+sAw5U0rfY+y3XLc4sggQFD9GkgAVEPM5Uay4GzomErgQrGo5Mo4/05MjqZBua5LIz5Cu7sTk2oLNTlzo8+9s7sPjan6BiclOLTRFSPNmshWcEiiyENAp4rN0PfqPrQDlN4SdxkEwNYcKFyLQIDAQAB"),
+  CNAME("rsend.band-org-app", "rsend-euw1.forge.rmta.net."),
+  CNAME("send.band-org-app", "send.forge.rmta.net."),
   TXT("_dmarc", "v=DMARC1; p=none;")
 )
 
