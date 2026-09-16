@@ -8,7 +8,8 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   CNAME("autodiscover", "autodiscover.outlook.com."),
   TXT("@", "v=spf1 include:spf.protection.outlook.com -all"),
   A("vpn", "81.137.192.4"),
-  AAAA("vpn", "fe80::20a:cdff:fe0b:bf")
+  AAAA("vpn", "fe80::20a:cdff:fe0b:bf"),
+  CNAME("band-org-app", "band-org-app.netlify.app.")
 )
 
 D("band-org-app.cantytech.uk", NON_REG, DnsProvider(R53),
