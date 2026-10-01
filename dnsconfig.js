@@ -3,7 +3,7 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("cantytech.uk", NON_REG, DnsProvider(R53),
-  ALIAS('@', 'apex-loadbalancer.netlify.com.'),
+  A("@", "75.2.60.5"),
   TXT("@", "MS=ms90388191"),
   MX("@", 0, "cantytech-uk.mail.protection.outlook.com."),
   CNAME("autodiscover", "autodiscover.outlook.com."),
