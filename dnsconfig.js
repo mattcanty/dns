@@ -16,7 +16,8 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   CNAME("rsend.band-org-app", "rsend-euw1.forge.rmta.net."),
   CNAME("send.band-org-app", "send.forge.rmta.net."),
   TXT("_dmarc.band-org-app", "v=DMARC1; p=none;"),
-  TXT("subdomain-owner-verification.band-org-app", "46f26a46438d1012b744271e74074682")
+  TXT("subdomain-owner-verification.band-org-app", "46f26a46438d1012b744271e74074682"),
+  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app.")
 )
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
