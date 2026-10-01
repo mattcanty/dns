@@ -4,6 +4,7 @@ var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("cantytech.uk", NON_REG, DnsProvider(R53),
   A("@", "75.2.60.5"),
+  CNAME("www", "cantytech-website.netlify.app."),
   TXT("@", "MS=ms90388191"),
   MX("@", 0, "cantytech-uk.mail.protection.outlook.com."),
   CNAME("autodiscover", "autodiscover.outlook.com."),
