@@ -2,6 +2,11 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
+D("rainclock.live", NON_REG, DnsProvider(R53),
+  A("@", "75.2.60.5"),
+  CNAME("www", "rainclock.mattcanty.com.")
+)
+
 D("cantytech.uk", NON_REG, DnsProvider(R53),
   A("@", "75.2.60.5"),
   CNAME("www", "cantytech-website.netlify.app."),
