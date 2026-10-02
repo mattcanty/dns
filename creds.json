@@ -8,5 +8,12 @@
     "cloudflare": {
         "TYPE": "CLOUDFLAREAPI",
         "apitoken": "$CLOUDFLARE_API_KEY"
+    },
+    {
+      "namecheap": {
+        "TYPE": "NAMECHEAP",
+        "apikey": "$NAMECHEAP_API_KEY",
+        "apiuser": "$NAMECHEAP_USERNAME"
       }
+    }
 }
