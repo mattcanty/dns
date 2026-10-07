@@ -25,8 +25,8 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   TXT("subdomain-owner-verification.band-org-app", "46f26a46438d1012b744271e74074682"),
 
   TXT("resend._domainkey.marginal-vat", "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbSOcQbdHQGgVLqBAJCpZry/DSxKvLZdYF05scr1in3EVl7EzdEBmrMqq70UEPmJzIqPFdVLci35AXobu8wgTb0WXFMBH3lBW0Igh9q6Aefw3KYDuKKsAyfrsp/kX4GyG00TvEm37SdTRjsT2T2zwe1LDasrw3JP2GGc4hjA/T7QIDAQAB"),
-  CNAME("rsend.marginal-vat", "rsend-euw1.forge.rmta.net"),
-  CNAME("send.marginal-vat", "send.forge.rmta.net"),
+  CNAME("rsend.marginal-vat", "rsend-euw1.forge.rmta.net."),
+  CNAME("send.marginal-vat", "send.forge.rmta.net."),
   
   CNAME("lmf", "frabjous-seahorse-29922c.netlify.app.")
 )
