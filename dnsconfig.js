@@ -2,6 +2,10 @@ var NON_REG = NewRegistrar("none", "NONE");
 var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
+D("blumm.in", NON_REG, DnsProvider(R53),
+  TXT("subdomain-owner-verification", "6efa7ab43ec9dee06ca6bb59b89f7d1c")
+)
+
 D("rainclock.live", NON_REG, DnsProvider(R53),
   A("@", "75.2.60.5"),
   CNAME("www", "rainclock.mattcanty.com.")
