@@ -3,7 +3,8 @@ var R53 = NewDnsProvider("r53", "ROUTE53");
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("blumm.in", NON_REG, DnsProvider(R53),
-  TXT("subdomain-owner-verification", "6efa7ab43ec9dee06ca6bb59b89f7d1c")
+  TXT("subdomain-owner-verification", "6efa7ab43ec9dee06ca6bb59b89f7d1c"),
+  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app.")
 )
 
 D("rainclock.live", NON_REG, DnsProvider(R53),
