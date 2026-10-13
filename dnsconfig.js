@@ -4,7 +4,8 @@ var DSP_CLOUDFLARE = NewDnsProvider("cloudflare");
 
 D("blumm.in", NON_REG, DnsProvider(R53),
   TXT("subdomain-owner-verification", "6efa7ab43ec9dee06ca6bb59b89f7d1c"),
-  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app.")
+  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app."),
+  A("@", "75.2.60.5")
 )
 
 D("rainclock.live", NON_REG, DnsProvider(R53),
