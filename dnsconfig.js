@@ -93,7 +93,9 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE)
     TXT("20260213120006pm._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZtDPrwUc+pHsLkZsoE3mbaQxj/MdoaVmDFRnLXMisk5+YCCgZD8EidBtBb9NnYPFEz49tDT79CQhxP38cQODvySVhEeE9AB31dylfxEiYS+Py1qUHwA995RCpdxAxU1OWBiG0EpYgOZXYvd7NvACdm9ofrAqzPwLkh7Xn826B5QIDAQAB"),
     CNAME("pm-bounces", "pm.mtasv.net."),
     A("vpn", "217.41.23.138"),
-    A("chat", "3.10.95.36")
+    A("chat", "3.10.95.36"),
+    MX("inbound", 10, "inbound-smtp.eu-west-1.amazonaws.com."),
+    TXT("_amazonses.inbound", "4GlkKZ7rdNs1A95O520zNLjFokz4WPPU+0ThXUTraww=")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
