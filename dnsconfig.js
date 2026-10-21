@@ -35,7 +35,9 @@ D("cantytech.uk", NON_REG, DnsProvider(R53),
   CNAME("rsend.marginal-vat", "rsend-euw1.forge.rmta.net."),
   CNAME("send.marginal-vat", "send.forge.rmta.net."),
   
-  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app.")
+  CNAME("lmf", "frabjous-seahorse-29922c.netlify.app."),
+
+  IGNORE("larna-and-joel")
 )
 
 D("mattcanty.com", NON_REG, DnsProvider(R53),
