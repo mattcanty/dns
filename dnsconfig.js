@@ -96,7 +96,7 @@ D("controlaltrepeat.net", NON_REG, DnsProvider(R53), DnsProvider(DSP_CLOUDFLARE)
     A("chat", "3.10.95.36"),
     MX("inbound", 10, "inbound-smtp.eu-west-1.amazonaws.com."),
     TXT("_amazonses.inbound", "4GlkKZ7rdNs1A95O520zNLjFokz4WPPU+0ThXUTraww="),
-    TXT("subdomain-owner-verification", "f20eb1eb896bdff4d80e401ffbc84461")
+    TXT("netlify-challenge.ops.controlaltrepeat.net", "f20eb1eb896bdff4d80e401ffbc84461")
 );
 
 D("bassguitarbook.com", NON_REG, DnsProvider(R53),
